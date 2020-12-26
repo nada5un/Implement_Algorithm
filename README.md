@@ -17,6 +17,7 @@
             map_list[i]=list(map(int, input().split()))
         ```
 2. 2차원 배열 초기화 
+
         ```
         look_lists= [[0 for col in range(4)] for row in range(4)]
         ```
