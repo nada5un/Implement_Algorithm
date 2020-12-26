@@ -22,9 +22,9 @@
     ```
 ## 파이썬에서 3차원 배열 (리스트)
 
-파이썬에서 3차원 배열 입력 받기
+1. 파이썬에서 3차원 배열 입력 받기
 
     ```
     go_list = [[[0 for col in range(m)] for row in range(n)] for depth in range(4)]
-    
     ```
+
