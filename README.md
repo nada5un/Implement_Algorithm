@@ -6,16 +6,16 @@
 
 1. 2차원 배열 입력 받기
 
-1-1. 행렬의 크기 입력 받기 
+    1) 행렬의 크기 입력 받기 
 
-m,n = map(int,input().split())
+    m,n = map(int,input().split())
 
-1-2. 행렬 입력 받기 
+    2) 행렬 입력 받기 
 
-map_list=[0 for _ in range(m)]
-for i in range(m):
-    map_list[i]=list(map(int, input().split()))
-    
+    map_list=[0 for _ in range(m)]
+    for i in range(m):
+        map_list[i]=list(map(int, input().split()))
+
 2. 2차원 배열 초기화 
 
-look_lists= [[0 for col in range(4)] for row in range(4)]
+    look_lists= [[0 for col in range(4)] for row in range(4)]
