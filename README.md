@@ -17,9 +17,12 @@
             map_list[i]=list(map(int, input().split()))
         ```
 2. 2차원 배열 초기화 
+
         ```
         look_lists= [[0 for col in range(4)] for row in range(4)]
         ```
+        
+        
 #### 파이썬에서 3차원 배열 (리스트)
 
 1. 파이썬에서 3차원 배열 입력 받기
