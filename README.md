@@ -1,3 +1,21 @@
 # Implement_Algorithm
 
 구현 알고리즘 
+
+## 파이썬에서 2차원 배열 (리스트)
+
+1. 2차원 배열 입력 받기
+
+1-1. 행렬의 크기 입력 받기 
+
+m,n = map(int,input().split())
+
+1-2. 행렬 입력 받기 
+
+map_list=[0 for _ in range(m)]
+for i in range(m):
+    map_list[i]=list(map(int, input().split()))
+    
+2. 2차원 배열 초기화 
+
+look_lists= [[0 for col in range(4)] for row in range(4)]
