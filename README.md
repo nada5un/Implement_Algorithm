@@ -21,6 +21,6 @@
     look_lists= [[0 for col in range(4)] for row in range(4)]
     ```
 ## 파이썬에서 3차원 배열 (리스트)
-    ```
+    
     go_list = [[[0 for col in range(m)] for row in range(n)] for depth in range(4)]
-    ```
+    
