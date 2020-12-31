@@ -1,6 +1,6 @@
 # Implement_Algorithm
 
-구현 알고리즘 
+구현 알고리즘과 배열 
 
 ### 파이썬에서 2차원 배열 (리스트)
 
@@ -18,10 +18,16 @@
         ```
 2. 2차원 배열 초기화 
 
+    N X M 크기의 2차원 리스트 초기화 
+    
+    ```
+    array = [[0] * m for _ in range(n)]
+    ```
+
     ```
     look_lists= [[0 for col in range(4)] for row in range(4)]
     ```
-        
+   
         
 ### 파이썬에서 3차원 배열 (리스트)
 
